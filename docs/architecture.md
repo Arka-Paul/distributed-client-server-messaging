@@ -2,7 +2,6 @@
 
 ## Overview
 The system follows a **client–server architecture** over TCP sockets.
-
 - A central server listens for incoming client connections.
 - Each client connection is handled by a dedicated thread.
 - Clients communicate exclusively through the server.
@@ -26,4 +25,5 @@ The system follows a **client–server architecture** over TCP sockets.
 - A designated client
 - Responsible for group-level coordination
 - Periodically distributes client status information
+
 
