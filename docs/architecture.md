@@ -1,6 +1,6 @@
 # Architecture
 
-## High-Level Overview
+## Overview
 The system follows a **client–server architecture** over TCP sockets.
 
 - A central server listens for incoming client connections.
@@ -26,3 +26,4 @@ The system follows a **client–server architecture** over TCP sockets.
 - A designated client
 - Responsible for group-level coordination
 - Periodically distributes client status information
+
